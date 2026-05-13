@@ -24,7 +24,7 @@ cp .env.example .env  # then add your OpenAI API key
 
 ##roadmap 
 - [x] Day 1: Project setup, OpenAI hello world
-- [ ] Day 2: File loaders (PDF, DOCX, PPTX, TXT)
+- [x] Day 2: File loaders (PDF, DOCX, PPTX, TXT)
 - [ ] Day 3: Text chunking
 - [ ] Day 4: Embeddings + cosine similarity
 - [ ] Day 5: ChromaDB integration
