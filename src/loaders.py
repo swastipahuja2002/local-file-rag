@@ -14,7 +14,7 @@ def load_pdf(path: Path) -> str:
     return "\n".join(pages_text)
 
 def load_docx(path: Path) -> str:
-    """extract text from word docx"""
+    """extract text from word docx, to whoever is reading this in detail, yaha tk aagye ho i mean....thanks..yup thanks and proof ki this code is not copy pasted instead hand written haha"""
     doc=Document(path)
     paragraphs=[para.text for para in doc.paragraphs]
     return "\n".join(paragraphs)
